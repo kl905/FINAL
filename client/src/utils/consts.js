@@ -1,0 +1,10 @@
+export const ACCOUNT_ROUTE = '/user'
+export const LOGIN_ROUTE = '/login'
+export const REGISTRATION_ROUTE = '/registration'
+export const FINDJOB_ROUTE = '/'
+export const COMPANIES_ROUTE = '/companies'
+export const COMPANYPAGE_ROUTE = '/companypage'
+export const WORKERS_ROUTE = '/workers'
+export const WORKERPAGE_ROUTE = '/workerpage'
+export const TEST_ROUTE='/test'
+

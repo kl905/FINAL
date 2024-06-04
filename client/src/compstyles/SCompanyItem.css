@@ -1,0 +1,78 @@
+.SItem{
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 12px #edeff0;
+    padding: 15px;
+    justify-content: normal;
+    border: 1px solid transparent;
+    position: relative;
+    margin-bottom: 16px;
+    display: flex;
+    transition: height 1s ease-in,padding-bottom .1s,padding-top .1s;
+}
+.SItem1{
+    border-radius: 4px;
+    box-shadow: 0 2px 12px #edeff0;
+    padding: 0.5%;
+    justify-content: normal;
+    border: 1px solid #442c2c;
+    margin-bottom: 2%;
+    width:95%
+}
+
+.scc{
+    width: 60%;
+    height: 30%
+}
+
+.custom-scrollbars__track-and-thumb {
+    display: block;
+    height: 100%;  /* must have some height */
+    position: relative;
+    width: 16px; /* must have some width */
+}
+
+/* The track is meant to fill the space it's given, so top and bottom are set to 0. */
+.custom-scrollbars__track {
+    bottom: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 16px; /* must have some width */
+}
+
+/* No top or bottom set for the thumb. That will be controlled by JavaScript. */
+.custom-scrollbars__thumb {
+    position: absolute;
+    width: 16px; /* must have some width */
+}
+
+.SItem_layout{
+    column-count: 2;
+    column-gap: 20%;
+    position: relative;
+    width: 100%;
+}
+.SItem_layout1{
+    column-count: 2;
+    column-gap: 10px;
+    position: relative;
+    width: 100%;
+}
+.SImg {
+    display: block;
+    width: 350px;
+    height: 70px !important;
+    margin-bottom: 50px;
+    margin-left: 250px;
+}
+.SBut{
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 220px;
+}
+.SBut1{
+    margin-top: 60px;
+    width: 400px;
+    margin-left: 220px;
+}

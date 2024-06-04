@@ -1,0 +1,34 @@
+.MainContent{
+    width: 1400px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.Filtwrapper{
+    margin-left: 50px;
+    border: 1px solid transparent;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.Cont{
+    width: 1400px;
+    float: right;
+    margin-left: 100px;
+}
+#form_control:checked:after{
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #e6f7e6;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    outline: 4px solid rgba(44,44,44,0.6);
+    border: 5px solid rgb(44, 44, 44);
+}

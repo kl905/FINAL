@@ -1,0 +1,44 @@
+
+
+
+.bd{
+    background-image: url("../BG/4kfon.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 94vh;
+}
+
+.Imc{
+    width: 800px;
+    height: 500px;
+}
+.CR{
+    width:800px;
+    height:500px;
+    left: 900px;
+    top: 350px;
+}
+.tx{
+    font-size: 94px;
+    font-family: Impact;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    color: black;
+}
+.tx1{
+    font-size: 94px;
+    font-family: Impact;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    color: black;
+}
+.tx2{
+    font-size: 94px;
+    font-family: Impact;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    color: black;
+}
